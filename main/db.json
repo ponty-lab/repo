@@ -1,0 +1,1744 @@
+{
+  "bookings": [
+    {
+      "createdAt": "2025-01-01T12:00:00Z",
+      "appointmentAt": "2025-01-15T14:00:00Z",
+      "name": "Ben Bailiff",
+      "email": "ben@example.com",
+      "phone": "07898000999",
+      "location": "Huddersfield",
+      "status": "active",
+      "type": "beard_only"
+    },
+    {
+      "createdAt": "2025-01-01T15:00:00Z",
+      "appointmentAt": "2025-01-15T15:00:00Z",
+      "name": "Alex Alan",
+      "email": "alex@example.com",
+      "phone": "07888000999",
+      "location": "Manchester",
+      "status": "defaulted",
+      "type": "classic_cut"
+    },
+    {
+      "createdAt": "2025-02-01T15:00:00Z",
+      "appointmentAt": "2025-02-15T15:00:00Z",
+      "name": "Ahmed Agan",
+      "email": "ahmed@example.com",
+      "phone": "07885550999",
+      "location": "Manchester",
+      "status": "paused",
+      "type": "skin_fade"
+    },
+    {
+      "createdAt": "2025-03-01T15:00:00Z",
+      "appointmentAt": "2025-03-15T15:00:00Z",
+      "name": "Mike Man",
+      "email": "mike@example.com",
+      "phone": "07885550999",
+      "location": "Huddersfield",
+      "status": "cancelled",
+      "type": "classic_cut_beard"
+    },
+    {
+      "createdAt": "2025-02-01T15:00:00Z",
+      "appointmentAt": "2025-02-15T15:00:00Z",
+      "name": "Ahmed Agan",
+      "email": "ahmed@example.com",
+      "phone": "07885550999",
+      "location": "Manchester",
+      "status": "overdue",
+      "type": "skin_fade_beard"
+    },
+    {
+      "createdAt": "2025-02-01T14:00:00Z",
+      "appointmentAt": "2025-02-15T14:00:00Z",
+      "name": "Alan Long",
+      "email": "alan@example.com",
+      "phone": "07665550999",
+      "location": "Leeds",
+      "status": "active",
+      "type": "skin_fade_beard"
+    }
+  ],
+  "users": [
+    {
+      "name": "typicode"
+    }
+  ],
+  "invoices": [
+    {
+      "id": 1,
+      "name": " ",
+      "date": "2023-05-08T20:56:13.029Z",
+      "company": 15,
+      "discount": 0,
+      "tax": 20,
+      "contact": 15,
+      "total": 630,
+      "missions": [29, 14],
+      "services": [
+        {
+          "title": "engage ROI",
+          "unitPrice": 75,
+          "quantity": 3,
+          "discount": 0,
+          "totalPrice": 225
+        },
+        {
+          "title": "strategize partnerships",
+          "unitPrice": 75,
+          "quantity": 5,
+          "discount": 20,
+          "totalPrice": 300
+        }
+      ],
+      "subTotal": 525,
+      "organization": 1,
+      "client": 1
+    },
+    {
+      "id": 2,
+      "name": " ",
+      "date": "2023-05-09T07:18:32.854Z",
+      "company": 4,
+      "discount": 0,
+      "tax": 20,
+      "contact": 4,
+      "total": 906,
+      "missions": [1, 24],
+      "services": [
+        {
+          "title": "target deliverables",
+          "unitPrice": 100,
+          "quantity": 5,
+          "discount": 0,
+          "totalPrice": 500
+        },
+        {
+          "title": "benchmark markets",
+          "unitPrice": 100,
+          "quantity": 3,
+          "discount": 15,
+          "totalPrice": 255
+        }
+      ],
+      "subTotal": 755,
+      "organization": 1,
+      "client": 1
+    },
+    {
+      "id": 3,
+      "name": " ",
+      "date": "2023-05-10T02:32:43.336Z",
+      "company": 20,
+      "discount": 0,
+      "tax": 20,
+      "contact": 20,
+      "total": 237.6,
+      "missions": [30, 28],
+      "services": [
+        {
+          "title": "utilize networks",
+          "unitPrice": 45,
+          "quantity": 1,
+          "discount": 0,
+          "totalPrice": 45
+        },
+        {
+          "title": "incubate experiences",
+          "unitPrice": 60,
+          "quantity": 3,
+          "discount": 15,
+          "totalPrice": 153
+        }
+      ],
+      "subTotal": 198,
+      "organization": 1,
+      "client": 1
+    },
+    {
+      "id": 4,
+      "name": " ",
+      "date": "2023-05-13T20:48:54.214Z",
+      "company": 27,
+      "discount": 0,
+      "tax": 20,
+      "contact": 27,
+      "total": 216,
+      "missions": [15],
+      "services": [
+        {
+          "title": "envisioneer e-commerce",
+          "unitPrice": 75,
+          "quantity": 3,
+          "discount": 20,
+          "totalPrice": 180
+        }
+      ],
+      "subTotal": 180,
+      "organization": 1,
+      "client": 1
+    },
+    {
+      "id": 5,
+      "name": " ",
+      "date": "2023-05-18T02:17:00.029Z",
+      "company": 29,
+      "discount": 0,
+      "tax": 20,
+      "contact": 29,
+      "total": 936,
+      "missions": [16, 15, 2],
+      "services": [
+        {
+          "title": "transition models",
+          "unitPrice": 60,
+          "quantity": 3,
+          "discount": 0,
+          "totalPrice": 180
+        },
+        {
+          "title": "envisioneer e-commerce",
+          "unitPrice": 75,
+          "quantity": 5,
+          "discount": 0,
+          "totalPrice": 375
+        },
+        {
+          "title": "recontextualize niches",
+          "unitPrice": 45,
+          "quantity": 5,
+          "discount": 0,
+          "totalPrice": 225
+        }
+      ],
+      "subTotal": 780,
+      "organization": 1,
+      "client": 2
+    },
+    {
+      "id": 6,
+      "name": " ",
+      "date": "2023-05-19T18:54:56.391Z",
+      "company": 26,
+      "discount": 0,
+      "tax": 20,
+      "contact": 26,
+      "total": 648,
+      "missions": [7, 27, 13],
+      "services": [
+        {
+          "title": "evolve infrastructures",
+          "unitPrice": 75,
+          "quantity": 4,
+          "discount": 10,
+          "totalPrice": 270
+        },
+        {
+          "title": "scale models",
+          "unitPrice": 100,
+          "quantity": 2,
+          "discount": 15,
+          "totalPrice": 170
+        },
+        {
+          "title": "transform users",
+          "unitPrice": 100,
+          "quantity": 1,
+          "discount": 0,
+          "totalPrice": 100
+        }
+      ],
+      "subTotal": 540,
+      "organization": 1,
+      "client": 2
+    },
+    {
+      "id": 7,
+      "name": " ",
+      "date": "2023-05-19T20:02:28.662Z",
+      "company": 5,
+      "discount": 0,
+      "tax": 20,
+      "contact": 5,
+      "total": 504,
+      "missions": [18, 30],
+      "services": [
+        {
+          "title": "strategize initiatives",
+          "unitPrice": 60,
+          "quantity": 5,
+          "discount": 0,
+          "totalPrice": 300
+        },
+        {
+          "title": "utilize networks",
+          "unitPrice": 60,
+          "quantity": 2,
+          "discount": 0,
+          "totalPrice": 120
+        }
+      ],
+      "subTotal": 420,
+      "organization": 1,
+      "client": 2
+    },
+    {
+      "id": 8,
+      "name": " ",
+      "date": "2023-05-26T08:43:10.511Z",
+      "company": 28,
+      "discount": 0,
+      "tax": 20,
+      "contact": 28,
+      "total": 590.4,
+      "missions": [16, 5, 17],
+      "services": [
+        {
+          "title": "transition models",
+          "unitPrice": 60,
+          "quantity": 4,
+          "discount": 0,
+          "totalPrice": 240
+        },
+        {
+          "title": "mesh web services",
+          "unitPrice": 60,
+          "quantity": 4,
+          "discount": 20,
+          "totalPrice": 192
+        },
+        {
+          "title": "envisioneer web services",
+          "unitPrice": 75,
+          "quantity": 1,
+          "discount": 20,
+          "totalPrice": 60
+        }
+      ],
+      "subTotal": 492,
+      "organization": 1,
+      "client": 2
+    },
+    {
+      "id": 9,
+      "name": " ",
+      "date": "2023-05-29T03:20:55.895Z",
+      "company": 19,
+      "discount": 0,
+      "tax": 20,
+      "contact": 19,
+      "total": 676.5,
+      "missions": [9, 2],
+      "services": [
+        {
+          "title": "grow niches",
+          "unitPrice": 75,
+          "quantity": 1,
+          "discount": 15,
+          "totalPrice": 63.75
+        },
+        {
+          "title": "recontextualize niches",
+          "unitPrice": 100,
+          "quantity": 5,
+          "discount": 0,
+          "totalPrice": 500
+        }
+      ],
+      "subTotal": 563.75,
+      "organization": 1,
+      "client": 2
+    },
+    {
+      "id": 10,
+      "name": " ",
+      "date": "2023-05-29T14:05:44.076Z",
+      "company": 4,
+      "discount": 0,
+      "tax": 20,
+      "contact": 4,
+      "total": 120,
+      "missions": [17],
+      "services": [
+        {
+          "title": "envisioneer web services",
+          "unitPrice": 100,
+          "quantity": 1,
+          "discount": 0,
+          "totalPrice": 100
+        }
+      ],
+      "subTotal": 100,
+      "organization": 1,
+      "client": 3
+    },
+    {
+      "id": 11,
+      "name": " ",
+      "date": "2023-05-30T14:21:59.034Z",
+      "company": 18,
+      "discount": 0,
+      "tax": 20,
+      "contact": 18,
+      "total": 54,
+      "missions": [19],
+      "services": [
+        {
+          "title": "embrace niches",
+          "unitPrice": 45,
+          "quantity": 1,
+          "discount": 0,
+          "totalPrice": 45
+        }
+      ],
+      "subTotal": 45,
+      "organization": 1,
+      "client": 3
+    },
+    {
+      "id": 12,
+      "name": " ",
+      "date": "2023-05-31T22:26:26.260Z",
+      "company": 11,
+      "discount": 0,
+      "tax": 20,
+      "contact": 11,
+      "total": 510,
+      "missions": [29, 28, 10],
+      "services": [
+        {
+          "title": "engage ROI",
+          "unitPrice": 100,
+          "quantity": 1,
+          "discount": 20,
+          "totalPrice": 80
+        },
+        {
+          "title": "incubate experiences",
+          "unitPrice": 45,
+          "quantity": 5,
+          "discount": 0,
+          "totalPrice": 225
+        },
+        {
+          "title": "implement content",
+          "unitPrice": 75,
+          "quantity": 2,
+          "discount": 20,
+          "totalPrice": 120
+        }
+      ],
+      "subTotal": 425,
+      "organization": 1,
+      "client": 3
+    },
+    {
+      "id": 13,
+      "name": " ",
+      "date": "2023-06-01T06:29:30.061Z",
+      "company": 23,
+      "discount": 0,
+      "tax": 20,
+      "contact": 23,
+      "total": 183.6,
+      "missions": [18],
+      "services": [
+        {
+          "title": "strategize initiatives",
+          "unitPrice": 45,
+          "quantity": 4,
+          "discount": 15,
+          "totalPrice": 153
+        }
+      ],
+      "subTotal": 153,
+      "organization": 1,
+      "client": 3
+    },
+    {
+      "id": 14,
+      "name": " ",
+      "date": "2023-06-08T05:32:01.660Z",
+      "company": 22,
+      "discount": 0,
+      "tax": 20,
+      "contact": 22,
+      "total": 714,
+      "missions": [7, 16, 10],
+      "services": [
+        {
+          "title": "evolve infrastructures",
+          "unitPrice": 45,
+          "quantity": 3,
+          "discount": 0,
+          "totalPrice": 135
+        },
+        {
+          "title": "transition models",
+          "unitPrice": 100,
+          "quantity": 2,
+          "discount": 20,
+          "totalPrice": 160
+        },
+        {
+          "title": "implement content",
+          "unitPrice": 75,
+          "quantity": 4,
+          "discount": 0,
+          "totalPrice": 300
+        }
+      ],
+      "subTotal": 595,
+      "organization": 1,
+      "client": 3
+    },
+    {
+      "id": 15,
+      "name": " ",
+      "date": "2023-06-08T09:45:29.756Z",
+      "company": 6,
+      "discount": 0,
+      "tax": 20,
+      "contact": 6,
+      "total": 556.5,
+      "missions": [26, 28],
+      "services": [
+        {
+          "title": "engage architectures",
+          "unitPrice": 75,
+          "quantity": 1,
+          "discount": 15,
+          "totalPrice": 63.75
+        },
+        {
+          "title": "incubate experiences",
+          "unitPrice": 100,
+          "quantity": 5,
+          "discount": 20,
+          "totalPrice": 400
+        }
+      ],
+      "subTotal": 463.75,
+      "organization": 1,
+      "client": 4
+    },
+    {
+      "id": 16,
+      "name": " ",
+      "date": "2023-06-13T18:53:34.892Z",
+      "company": 22,
+      "discount": 0,
+      "tax": 20,
+      "contact": 22,
+      "total": 1270.5,
+      "missions": [13, 11, 29],
+      "services": [
+        {
+          "title": "transform users",
+          "unitPrice": 75,
+          "quantity": 4,
+          "discount": 20,
+          "totalPrice": 240
+        },
+        {
+          "title": "integrate lifetime value",
+          "unitPrice": 75,
+          "quantity": 5,
+          "discount": 15,
+          "totalPrice": 318.75
+        },
+        {
+          "title": "engage ROI",
+          "unitPrice": 100,
+          "quantity": 5,
+          "discount": 0,
+          "totalPrice": 500
+        }
+      ],
+      "subTotal": 1058.75,
+      "organization": 1,
+      "client": 4
+    },
+    {
+      "id": 17,
+      "name": " ",
+      "date": "2023-06-15T07:22:36.706Z",
+      "company": 14,
+      "discount": 0,
+      "tax": 20,
+      "contact": 14,
+      "total": 382.5,
+      "missions": [19],
+      "services": [
+        {
+          "title": "embrace niches",
+          "unitPrice": 75,
+          "quantity": 5,
+          "discount": 15,
+          "totalPrice": 318.75
+        }
+      ],
+      "subTotal": 318.75,
+      "organization": 1,
+      "client": 4
+    },
+    {
+      "id": 18,
+      "name": " ",
+      "date": "2023-06-26T19:29:59.713Z",
+      "company": 13,
+      "discount": 0,
+      "tax": 20,
+      "contact": 13,
+      "total": 306,
+      "missions": [9],
+      "services": [
+        {
+          "title": "grow niches",
+          "unitPrice": 100,
+          "quantity": 3,
+          "discount": 15,
+          "totalPrice": 255
+        }
+      ],
+      "subTotal": 255,
+      "organization": 1,
+      "client": 4
+    },
+    {
+      "id": 19,
+      "name": " ",
+      "date": "2023-06-27T23:00:32.337Z",
+      "company": 14,
+      "discount": 0,
+      "tax": 20,
+      "contact": 14,
+      "total": 54,
+      "missions": [24],
+      "services": [
+        {
+          "title": "benchmark markets",
+          "unitPrice": 45,
+          "quantity": 1,
+          "discount": 0,
+          "totalPrice": 45
+        }
+      ],
+      "subTotal": 45,
+      "organization": 1,
+      "client": 4
+    },
+    {
+      "id": 20,
+      "name": " ",
+      "date": "2023-06-28T01:59:48.059Z",
+      "company": 11,
+      "discount": 0,
+      "tax": 20,
+      "contact": 11,
+      "total": 726,
+      "missions": [21, 30],
+      "services": [
+        {
+          "title": "deploy portals",
+          "unitPrice": 75,
+          "quantity": 3,
+          "discount": 20,
+          "totalPrice": 180
+        },
+        {
+          "title": "utilize networks",
+          "unitPrice": 100,
+          "quantity": 5,
+          "discount": 15,
+          "totalPrice": 425
+        }
+      ],
+      "subTotal": 605,
+      "organization": 1,
+      "client": 5
+    },
+    {
+      "id": 21,
+      "name": " ",
+      "date": "2023-06-29T07:05:28.008Z",
+      "company": 19,
+      "discount": 0,
+      "tax": 20,
+      "contact": 19,
+      "total": 1132.8,
+      "missions": [9, 26, 27],
+      "services": [
+        {
+          "title": "grow niches",
+          "unitPrice": 100,
+          "quantity": 3,
+          "discount": 0,
+          "totalPrice": 300
+        },
+        {
+          "title": "engage architectures",
+          "unitPrice": 100,
+          "quantity": 5,
+          "discount": 0,
+          "totalPrice": 500
+        },
+        {
+          "title": "scale models",
+          "unitPrice": 60,
+          "quantity": 3,
+          "discount": 20,
+          "totalPrice": 144
+        }
+      ],
+      "subTotal": 944,
+      "organization": 1,
+      "client": 5
+    },
+    {
+      "id": 22,
+      "name": " ",
+      "date": "2023-06-30T00:41:28.094Z",
+      "company": 12,
+      "discount": 0,
+      "tax": 20,
+      "contact": 12,
+      "total": 252,
+      "missions": [30, 12],
+      "services": [
+        {
+          "title": "utilize networks",
+          "unitPrice": 75,
+          "quantity": 2,
+          "discount": 0,
+          "totalPrice": 150
+        },
+        {
+          "title": "productize e-business",
+          "unitPrice": 60,
+          "quantity": 1,
+          "discount": 0,
+          "totalPrice": 60
+        }
+      ],
+      "subTotal": 210,
+      "organization": 1,
+      "client": 5
+    },
+    {
+      "id": 23,
+      "name": " ",
+      "date": "2023-07-01T16:44:29.136Z",
+      "company": 24,
+      "discount": 0,
+      "tax": 20,
+      "contact": 24,
+      "total": 450,
+      "missions": [3],
+      "services": [
+        {
+          "title": "seize systems",
+          "unitPrice": 75,
+          "quantity": 5,
+          "discount": 0,
+          "totalPrice": 375
+        }
+      ],
+      "subTotal": 375,
+      "organization": 1,
+      "client": 5
+    },
+    {
+      "id": 24,
+      "name": " ",
+      "date": "2023-07-04T21:59:51.657Z",
+      "company": 30,
+      "discount": 0,
+      "tax": 20,
+      "contact": 30,
+      "total": 498,
+      "missions": [6, 30, 20],
+      "services": [
+        {
+          "title": "incubate e-markets",
+          "unitPrice": 60,
+          "quantity": 5,
+          "discount": 20,
+          "totalPrice": 240
+        },
+        {
+          "title": "utilize networks",
+          "unitPrice": 45,
+          "quantity": 2,
+          "discount": 0,
+          "totalPrice": 90
+        },
+        {
+          "title": "innovate mindshare",
+          "unitPrice": 100,
+          "quantity": 1,
+          "discount": 15,
+          "totalPrice": 85
+        }
+      ],
+      "subTotal": 415,
+      "organization": 1,
+      "client": 5
+    },
+    {
+      "id": 25,
+      "name": " ",
+      "date": "2023-07-05T09:18:21.197Z",
+      "company": 7,
+      "discount": 0,
+      "tax": 20,
+      "contact": 7,
+      "total": 72,
+      "missions": [1],
+      "services": [
+        {
+          "title": "target deliverables",
+          "unitPrice": 60,
+          "quantity": 1,
+          "discount": 0,
+          "totalPrice": 60
+        }
+      ],
+      "subTotal": 60,
+      "organization": 2,
+      "client": 6
+    },
+    {
+      "id": 26,
+      "name": " ",
+      "date": "2023-07-05T13:21:58.005Z",
+      "company": 3,
+      "discount": 0,
+      "tax": 20,
+      "contact": 3,
+      "total": 445.5,
+      "missions": [9, 21],
+      "services": [
+        {
+          "title": "grow niches",
+          "unitPrice": 75,
+          "quantity": 3,
+          "discount": 15,
+          "totalPrice": 191.25
+        },
+        {
+          "title": "deploy portals",
+          "unitPrice": 45,
+          "quantity": 5,
+          "discount": 20,
+          "totalPrice": 180
+        }
+      ],
+      "subTotal": 371.25,
+      "organization": 2,
+      "client": 6
+    },
+    {
+      "id": 27,
+      "name": " ",
+      "date": "2023-07-09T00:19:30.837Z",
+      "company": 1,
+      "discount": 0,
+      "tax": 20,
+      "contact": 1,
+      "total": 432,
+      "missions": [3],
+      "services": [
+        {
+          "title": "seize systems",
+          "unitPrice": 100,
+          "quantity": 4,
+          "discount": 10,
+          "totalPrice": 360
+        }
+      ],
+      "subTotal": 360,
+      "organization": 2,
+      "client": 6
+    },
+    {
+      "id": 28,
+      "name": " ",
+      "date": "2023-07-10T15:45:04.216Z",
+      "company": 21,
+      "discount": 0,
+      "tax": 20,
+      "contact": 21,
+      "total": 405,
+      "missions": [1],
+      "services": [
+        {
+          "title": "target deliverables",
+          "unitPrice": 75,
+          "quantity": 5,
+          "discount": 10,
+          "totalPrice": 337.5
+        }
+      ],
+      "subTotal": 337.5,
+      "organization": 2,
+      "client": 6
+    },
+    {
+      "id": 29,
+      "name": " ",
+      "date": "2023-07-11T08:46:06.859Z",
+      "company": 9,
+      "discount": 0,
+      "tax": 20,
+      "contact": 9,
+      "total": 792,
+      "missions": [8, 24, 17],
+      "services": [
+        {
+          "title": "streamline paradigms",
+          "unitPrice": 45,
+          "quantity": 5,
+          "discount": 20,
+          "totalPrice": 180
+        },
+        {
+          "title": "benchmark markets",
+          "unitPrice": 75,
+          "quantity": 4,
+          "discount": 20,
+          "totalPrice": 240
+        },
+        {
+          "title": "envisioneer web services",
+          "unitPrice": 60,
+          "quantity": 4,
+          "discount": 0,
+          "totalPrice": 240
+        }
+      ],
+      "subTotal": 660,
+      "organization": 2,
+      "client": 6
+    },
+    {
+      "id": 30,
+      "name": " ",
+      "date": "2023-07-12T01:02:18.774Z",
+      "company": 10,
+      "discount": 0,
+      "tax": 20,
+      "contact": 10,
+      "total": 435,
+      "missions": [6, 25, 20],
+      "services": [
+        {
+          "title": "incubate e-markets",
+          "unitPrice": 100,
+          "quantity": 1,
+          "discount": 0,
+          "totalPrice": 100
+        },
+        {
+          "title": "orchestrate web services",
+          "unitPrice": 75,
+          "quantity": 2,
+          "discount": 10,
+          "totalPrice": 135
+        },
+        {
+          "title": "innovate mindshare",
+          "unitPrice": 75,
+          "quantity": 2,
+          "discount": 15,
+          "totalPrice": 127.5
+        }
+      ],
+      "subTotal": 362.5,
+      "organization": 2,
+      "client": 7
+    },
+    {
+      "id": 31,
+      "name": " ",
+      "date": "2023-07-12T17:49:22.451Z",
+      "company": 19,
+      "discount": 0,
+      "tax": 20,
+      "contact": 19,
+      "total": 425.7,
+      "missions": [17, 6, 5],
+      "services": [
+        {
+          "title": "envisioneer web services",
+          "unitPrice": 45,
+          "quantity": 3,
+          "discount": 15,
+          "totalPrice": 114.75
+        },
+        {
+          "title": "incubate e-markets",
+          "unitPrice": 60,
+          "quantity": 1,
+          "discount": 0,
+          "totalPrice": 60
+        },
+        {
+          "title": "mesh web services",
+          "unitPrice": 45,
+          "quantity": 4,
+          "discount": 0,
+          "totalPrice": 180
+        }
+      ],
+      "subTotal": 354.75,
+      "organization": 2,
+      "client": 7
+    },
+    {
+      "id": 32,
+      "name": " ",
+      "date": "2023-07-17T19:59:21.269Z",
+      "company": 28,
+      "discount": 0,
+      "tax": 20,
+      "contact": 28,
+      "total": 324,
+      "missions": [28],
+      "services": [
+        {
+          "title": "incubate experiences",
+          "unitPrice": 60,
+          "quantity": 5,
+          "discount": 10,
+          "totalPrice": 270
+        }
+      ],
+      "subTotal": 270,
+      "organization": 2,
+      "client": 7
+    },
+    {
+      "id": 33,
+      "name": " ",
+      "date": "2023-07-20T06:30:13.581Z",
+      "company": 7,
+      "discount": 0,
+      "tax": 20,
+      "contact": 7,
+      "total": 129.6,
+      "missions": [1],
+      "services": [
+        {
+          "title": "target deliverables",
+          "unitPrice": 60,
+          "quantity": 2,
+          "discount": 10,
+          "totalPrice": 108
+        }
+      ],
+      "subTotal": 108,
+      "organization": 2,
+      "client": 7
+    },
+    {
+      "id": 34,
+      "name": " ",
+      "date": "2023-07-20T15:34:53.032Z",
+      "company": 3,
+      "discount": 0,
+      "tax": 20,
+      "contact": 3,
+      "total": 205.2,
+      "missions": [28, 9],
+      "services": [
+        {
+          "title": "incubate experiences",
+          "unitPrice": 75,
+          "quantity": 1,
+          "discount": 0,
+          "totalPrice": 75
+        },
+        {
+          "title": "grow niches",
+          "unitPrice": 60,
+          "quantity": 2,
+          "discount": 20,
+          "totalPrice": 96
+        }
+      ],
+      "subTotal": 171,
+      "organization": 2,
+      "client": 7
+    },
+    {
+      "id": 35,
+      "name": " ",
+      "date": "2023-07-24T10:46:04.745Z",
+      "company": 19,
+      "discount": 0,
+      "tax": 20,
+      "contact": 19,
+      "total": 603,
+      "missions": [16, 25],
+      "services": [
+        {
+          "title": "transition models",
+          "unitPrice": 75,
+          "quantity": 4,
+          "discount": 0,
+          "totalPrice": 300
+        },
+        {
+          "title": "orchestrate web services",
+          "unitPrice": 75,
+          "quantity": 3,
+          "discount": 10,
+          "totalPrice": 202.5
+        }
+      ],
+      "subTotal": 502.5,
+      "organization": 2,
+      "client": 8
+    },
+    {
+      "id": 36,
+      "name": " ",
+      "date": "2023-08-02T16:00:11.722Z",
+      "company": 27,
+      "discount": 0,
+      "tax": 20,
+      "contact": 27,
+      "total": 198,
+      "missions": [13, 3],
+      "services": [
+        {
+          "title": "transform users",
+          "unitPrice": 45,
+          "quantity": 1,
+          "discount": 0,
+          "totalPrice": 45
+        },
+        {
+          "title": "seize systems",
+          "unitPrice": 60,
+          "quantity": 2,
+          "discount": 0,
+          "totalPrice": 120
+        }
+      ],
+      "subTotal": 165,
+      "organization": 2,
+      "client": 8
+    },
+    {
+      "id": 37,
+      "name": " ",
+      "date": "2023-08-03T13:47:52.027Z",
+      "company": 29,
+      "discount": 0,
+      "tax": 20,
+      "contact": 29,
+      "total": 633.6,
+      "missions": [22, 12, 27],
+      "services": [
+        {
+          "title": "empower e-commerce",
+          "unitPrice": 45,
+          "quantity": 4,
+          "discount": 0,
+          "totalPrice": 180
+        },
+        {
+          "title": "productize e-business",
+          "unitPrice": 60,
+          "quantity": 4,
+          "discount": 0,
+          "totalPrice": 240
+        },
+        {
+          "title": "scale models",
+          "unitPrice": 45,
+          "quantity": 3,
+          "discount": 20,
+          "totalPrice": 108
+        }
+      ],
+      "subTotal": 528,
+      "organization": 2,
+      "client": 8
+    },
+    {
+      "id": 38,
+      "name": " ",
+      "date": "2023-08-06T03:25:26.246Z",
+      "company": 7,
+      "discount": 0,
+      "tax": 20,
+      "contact": 7,
+      "total": 90,
+      "missions": [29],
+      "services": [
+        {
+          "title": "engage ROI",
+          "unitPrice": 75,
+          "quantity": 1,
+          "discount": 0,
+          "totalPrice": 75
+        }
+      ],
+      "subTotal": 75,
+      "organization": 2,
+      "client": 8
+    },
+    {
+      "id": 39,
+      "name": " ",
+      "date": "2023-08-07T19:20:37.439Z",
+      "company": 20,
+      "discount": 0,
+      "tax": 20,
+      "contact": 20,
+      "total": 288,
+      "missions": [26, 13],
+      "services": [
+        {
+          "title": "engage architectures",
+          "unitPrice": 45,
+          "quantity": 5,
+          "discount": 20,
+          "totalPrice": 180
+        },
+        {
+          "title": "transform users",
+          "unitPrice": 60,
+          "quantity": 1,
+          "discount": 0,
+          "totalPrice": 60
+        }
+      ],
+      "subTotal": 240,
+      "organization": 2,
+      "client": 8
+    },
+    {
+      "id": 40,
+      "name": " ",
+      "date": "2023-08-08T18:38:25.045Z",
+      "company": 29,
+      "discount": 0,
+      "tax": 20,
+      "contact": 29,
+      "total": 399.6,
+      "missions": [18, 14],
+      "services": [
+        {
+          "title": "strategize initiatives",
+          "unitPrice": 45,
+          "quantity": 4,
+          "discount": 15,
+          "totalPrice": 153
+        },
+        {
+          "title": "strategize partnerships",
+          "unitPrice": 45,
+          "quantity": 4,
+          "discount": 0,
+          "totalPrice": 180
+        }
+      ],
+      "subTotal": 333,
+      "organization": 2,
+      "client": 9
+    },
+    {
+      "id": 41,
+      "name": " ",
+      "date": "2023-08-10T11:48:20.750Z",
+      "company": 24,
+      "discount": 0,
+      "tax": 20,
+      "contact": 24,
+      "total": 691.2,
+      "missions": [11, 6, 23],
+      "services": [
+        {
+          "title": "integrate lifetime value",
+          "unitPrice": 45,
+          "quantity": 4,
+          "discount": 0,
+          "totalPrice": 180
+        },
+        {
+          "title": "incubate e-markets",
+          "unitPrice": 75,
+          "quantity": 4,
+          "discount": 0,
+          "totalPrice": 300
+        },
+        {
+          "title": "enhance metrics",
+          "unitPrice": 60,
+          "quantity": 2,
+          "discount": 20,
+          "totalPrice": 96
+        }
+      ],
+      "subTotal": 576,
+      "organization": 2,
+      "client": 9
+    },
+    {
+      "id": 42,
+      "name": " ",
+      "date": "2023-08-10T21:02:39.455Z",
+      "company": 29,
+      "discount": 0,
+      "tax": 20,
+      "contact": 29,
+      "total": 936,
+      "missions": [10, 13, 12],
+      "services": [
+        {
+          "title": "implement content",
+          "unitPrice": 100,
+          "quantity": 3,
+          "discount": 0,
+          "totalPrice": 300
+        },
+        {
+          "title": "transform users",
+          "unitPrice": 45,
+          "quantity": 5,
+          "discount": 0,
+          "totalPrice": 225
+        },
+        {
+          "title": "productize e-business",
+          "unitPrice": 75,
+          "quantity": 4,
+          "discount": 15,
+          "totalPrice": 255
+        }
+      ],
+      "subTotal": 780,
+      "organization": 2,
+      "client": 9
+    },
+    {
+      "id": 43,
+      "name": " ",
+      "date": "2023-08-14T13:37:50.932Z",
+      "company": 15,
+      "discount": 0,
+      "tax": 20,
+      "contact": 15,
+      "total": 384,
+      "missions": [17],
+      "services": [
+        {
+          "title": "envisioneer web services",
+          "unitPrice": 100,
+          "quantity": 4,
+          "discount": 20,
+          "totalPrice": 320
+        }
+      ],
+      "subTotal": 320,
+      "organization": 2,
+      "client": 9
+    },
+    {
+      "id": 44,
+      "name": " ",
+      "date": "2023-08-15T06:21:59.643Z",
+      "company": 14,
+      "discount": 0,
+      "tax": 20,
+      "contact": 14,
+      "total": 204,
+      "missions": [14],
+      "services": [
+        {
+          "title": "strategize partnerships",
+          "unitPrice": 100,
+          "quantity": 2,
+          "discount": 15,
+          "totalPrice": 170
+        }
+      ],
+      "subTotal": 170,
+      "organization": 2,
+      "client": 9
+    },
+    {
+      "id": 45,
+      "name": " ",
+      "date": "2023-08-16T03:04:18.794Z",
+      "company": 9,
+      "discount": 0,
+      "tax": 20,
+      "contact": 9,
+      "total": 744,
+      "missions": [22, 21],
+      "services": [
+        {
+          "title": "empower e-commerce",
+          "unitPrice": 100,
+          "quantity": 4,
+          "discount": 20,
+          "totalPrice": 320
+        },
+        {
+          "title": "deploy portals",
+          "unitPrice": 75,
+          "quantity": 4,
+          "discount": 0,
+          "totalPrice": 300
+        }
+      ],
+      "subTotal": 620,
+      "organization": 2,
+      "client": 10
+    },
+    {
+      "id": 46,
+      "name": " ",
+      "date": "2023-08-17T07:59:01.467Z",
+      "company": 12,
+      "discount": 0,
+      "tax": 20,
+      "contact": 12,
+      "total": 64.8,
+      "missions": [13],
+      "services": [
+        {
+          "title": "transform users",
+          "unitPrice": 60,
+          "quantity": 1,
+          "discount": 10,
+          "totalPrice": 54
+        }
+      ],
+      "subTotal": 54,
+      "organization": 2,
+      "client": 10
+    },
+    {
+      "id": 47,
+      "name": " ",
+      "date": "2023-08-21T19:17:05.064Z",
+      "company": 17,
+      "discount": 0,
+      "tax": 20,
+      "contact": 17,
+      "total": 532.8,
+      "missions": [5, 8, 12],
+      "services": [
+        {
+          "title": "mesh web services",
+          "unitPrice": 75,
+          "quantity": 4,
+          "discount": 10,
+          "totalPrice": 270
+        },
+        {
+          "title": "streamline paradigms",
+          "unitPrice": 60,
+          "quantity": 2,
+          "discount": 15,
+          "totalPrice": 102
+        },
+        {
+          "title": "productize e-business",
+          "unitPrice": 45,
+          "quantity": 2,
+          "discount": 20,
+          "totalPrice": 72
+        }
+      ],
+      "subTotal": 444,
+      "organization": 2,
+      "client": 10
+    },
+    {
+      "id": 48,
+      "name": " ",
+      "date": "2023-08-23T00:03:03.443Z",
+      "company": 6,
+      "discount": 0,
+      "tax": 20,
+      "contact": 6,
+      "total": 654,
+      "missions": [11, 1],
+      "services": [
+        {
+          "title": "integrate lifetime value",
+          "unitPrice": 60,
+          "quantity": 2,
+          "discount": 0,
+          "totalPrice": 120
+        },
+        {
+          "title": "target deliverables",
+          "unitPrice": 100,
+          "quantity": 5,
+          "discount": 15,
+          "totalPrice": 425
+        }
+      ],
+      "subTotal": 545,
+      "organization": 2,
+      "client": 10
+    },
+    {
+      "id": 49,
+      "name": " ",
+      "date": "2023-09-05T05:21:43.819Z",
+      "company": 11,
+      "discount": 0,
+      "tax": 20,
+      "contact": 11,
+      "total": 96,
+      "missions": [26],
+      "services": [
+        {
+          "title": "engage architectures",
+          "unitPrice": 100,
+          "quantity": 1,
+          "discount": 20,
+          "totalPrice": 80
+        }
+      ],
+      "subTotal": 80,
+      "organization": 2,
+      "client": 10
+    },
+    {
+      "id": 50,
+      "name": " ",
+      "date": "2023-09-06T08:22:48.372Z",
+      "company": 23,
+      "discount": 0,
+      "tax": 20,
+      "contact": 23,
+      "total": 43.2,
+      "missions": [18],
+      "services": [
+        {
+          "title": "strategize initiatives",
+          "unitPrice": 45,
+          "quantity": 1,
+          "discount": 20,
+          "totalPrice": 36
+        }
+      ],
+      "subTotal": 36,
+      "organization": 3,
+      "client": 11
+    },
+    {
+      "id": 51,
+      "name": " ",
+      "date": "2023-09-10T08:22:21.019Z",
+      "company": 2,
+      "discount": 0,
+      "tax": 20,
+      "contact": 2,
+      "total": 577.8,
+      "missions": [15, 11, 25],
+      "services": [
+        {
+          "title": "envisioneer e-commerce",
+          "unitPrice": 45,
+          "quantity": 5,
+          "discount": 20,
+          "totalPrice": 180
+        },
+        {
+          "title": "integrate lifetime value",
+          "unitPrice": 75,
+          "quantity": 3,
+          "discount": 0,
+          "totalPrice": 225
+        },
+        {
+          "title": "orchestrate web services",
+          "unitPrice": 45,
+          "quantity": 2,
+          "discount": 15,
+          "totalPrice": 76.5
+        }
+      ],
+      "subTotal": 481.5,
+      "organization": 3,
+      "client": 11
+    },
+    {
+      "id": 52,
+      "name": " ",
+      "date": "2023-09-10T17:31:43.959Z",
+      "company": 30,
+      "discount": 0,
+      "tax": 20,
+      "contact": 30,
+      "total": 90,
+      "missions": [15],
+      "services": [
+        {
+          "title": "envisioneer e-commerce",
+          "unitPrice": 75,
+          "quantity": 1,
+          "discount": 0,
+          "totalPrice": 75
+        }
+      ],
+      "subTotal": 75,
+      "organization": 3,
+      "client": 11
+    },
+    {
+      "id": 53,
+      "name": " ",
+      "date": "2023-09-16T06:29:05.790Z",
+      "company": 1,
+      "discount": 0,
+      "tax": 20,
+      "contact": 1,
+      "total": 984,
+      "missions": [22, 25, 30],
+      "services": [
+        {
+          "title": "empower e-commerce",
+          "unitPrice": 60,
+          "quantity": 3,
+          "discount": 0,
+          "totalPrice": 180
+        },
+        {
+          "title": "orchestrate web services",
+          "unitPrice": 100,
+          "quantity": 5,
+          "discount": 20,
+          "totalPrice": 400
+        },
+        {
+          "title": "utilize networks",
+          "unitPrice": 60,
+          "quantity": 4,
+          "discount": 0,
+          "totalPrice": 240
+        }
+      ],
+      "subTotal": 820,
+      "organization": 3,
+      "client": 11
+    },
+    {
+      "id": 54,
+      "name": " ",
+      "date": "2023-09-18T09:13:27.205Z",
+      "company": 13,
+      "discount": 0,
+      "tax": 20,
+      "contact": 13,
+      "total": 450,
+      "missions": [18, 12, 24],
+      "services": [
+        {
+          "title": "strategize initiatives",
+          "unitPrice": 75,
+          "quantity": 3,
+          "discount": 0,
+          "totalPrice": 225
+        },
+        {
+          "title": "productize e-business",
+          "unitPrice": 75,
+          "quantity": 1,
+          "discount": 0,
+          "totalPrice": 75
+        },
+        {
+          "title": "benchmark markets",
+          "unitPrice": 75,
+          "quantity": 1,
+          "discount": 0,
+          "totalPrice": 75
+        }
+      ],
+      "subTotal": 375,
+      "organization": 3,
+      "client": 11
+    },
+    {
+      "id": 55,
+      "name": " ",
+      "date": "2023-09-20T12:45:43.351Z",
+      "company": 16,
+      "discount": 0,
+      "tax": 20,
+      "contact": 16,
+      "total": 666,
+      "missions": [2, 14, 19],
+      "services": [
+        {
+          "title": "recontextualize niches",
+          "unitPrice": 45,
+          "quantity": 3,
+          "discount": 0,
+          "totalPrice": 135
+        },
+        {
+          "title": "strategize partnerships",
+          "unitPrice": 75,
+          "quantity": 5,
+          "discount": 20,
+          "totalPrice": 300
+        },
+        {
+          "title": "embrace niches",
+          "unitPrice": 75,
+          "quantity": 2,
+          "discount": 20,
+          "totalPrice": 120
+        }
+      ],
+      "subTotal": 555,
+      "organization": 3,
+      "client": 12
+    },
+    {
+      "id": 56,
+      "name": " ",
+      "date": "2023-09-21T13:14:18.386Z",
+      "company": 16,
+      "discount": 0,
+      "tax": 20,
+      "contact": 16,
+      "total": 522,
+      "missions": [22, 4],
+      "services": [
+        {
+          "title": "empower e-commerce",
+          "unitPrice": 60,
+          "quantity": 3,
+          "discount": 0,
+          "totalPrice": 180
+        },
+        {
+          "title": "incubate functionalities",
+          "unitPrice": 60,
+          "quantity": 5,
+          "discount": 15,
+          "totalPrice": 255
+        }
+      ],
+      "subTotal": 435,
+      "organization": 3,
+      "client": 12
+    }
+  ]
+}
